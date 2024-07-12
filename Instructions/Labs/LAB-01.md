@@ -4,7 +4,7 @@
  
 1. Open a new browser tab and navigate to the Power Platform admin center `https://aka.ms/ppac` 
 
-2. Log in using the following Username **<inject key="AzureAdUserEmail" enableCopy="true"></inject>** and Password **<inject key="AzureAdUserPassword" enableCopy="true"></inject>**.
+2. Log in using the following **Username** **<inject key="AzureAdUserEmail" enableCopy="true"></inject>** and **Password** **<inject key="AzureAdUserPassword" enableCopy="true"></inject>**.
  
 3. Skip the welcome tour by closing the prompt, or select **Get Started** to begin the tour and select **Next** through each prompt. At the end, select **Done** to finish the tour.
  
