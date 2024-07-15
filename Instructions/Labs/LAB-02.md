@@ -4,18 +4,18 @@
 
 1. Sign in to https://make.powerautomate.com.
 
-2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with a approvals and condition below approvals true or false `, Select the **Submit** button .
+2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with approvals and condition below approvals true or false `, Select the **Submit** button .
 
    ![screenshot of the prompt ](../Media/02/01.png)
 
 4. From the prompt, Copilot provides the outline for a suggested flow that you can review. To accept the flow, select **Next**
+
+    ![screenshot of the prompt ](../Media/02/02.png)
    
 5. Review the connected apps and services. If a connection hasn't been made, edit or fix it and then select **Create flow**.The Edit with Copilot designer opens with your flow along with a Copilot chat window on the right.
 
   
 6. Set up some parameters by selecting the **When a row is added,** modified or deleted trigger.A panel on the left side of the screen shows the trigger details, including an empty Table Name parameter that's required.
-
-   ![screenshot of the prompt ](../Media/02/02.png)
 
 7. From the Table Name dropdown menu, search for and select **Real Estate Showings**.
 
