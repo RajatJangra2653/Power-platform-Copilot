@@ -42,15 +42,15 @@
 
    ![screenshot of the prompt ](../Media/get-flow.png)
 
-2. Click on In the first node **When Power Virtual Agents Calls a flow** new flow window that opens, select the **Add an input** within the first scaffolded action. Then, select **Text**.
+2. Click on In the first node **Run a flow from copilot** new flow window that opens, select the **Add an input** within the first scaffolded action. Then, select **Text**.
 
-   ![screenshot of the prompt ](../Media/main.png)
+   ![screenshot of the prompt ](../Media/3.1/2.png)
        
-   ![screenshot of the prompt ](../Media/plus-plus.png)
+   ![screenshot of the prompt ](../Media/3.1/3.png)
 
 3. Within the first column, enter `Region` (leaving the second column empty).
 
-   ![screenshot of the prompt ](../Media/plus.png)
+   ![screenshot of the prompt ](../Media/3.1/4.png)
 
 4. Then, select the **Insert new step** button to **add a new action**.
 
@@ -94,7 +94,7 @@
 
       >**Note**: The braces { } are variables to display dynamic data. To enter variables into the node, use the {X} button on the Message node and then select a variable from the list.
 
-6. For the All other conditions branch, add the following text within the message node: The temperature for **{Region}** is `{Topic.Temperature}`. Where the braces { } are variables to display dynamic data.
+6. For the All other conditions branch, add the following text within the message node: `The temperature for {Topic.Region} is {Topic.Temperature}`. Where the braces { } are variables to display dynamic data.
    
    ![screenshot of the prompt ](../Media/last-ss.png)
 

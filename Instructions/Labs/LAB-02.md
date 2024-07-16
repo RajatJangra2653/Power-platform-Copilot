@@ -4,7 +4,7 @@
 
 1. Sign in to https://make.powerautomate.com.
 
-2. In the center of the Home page within Power Automate enter the following prompt: ` Request approval when a dataverse record with approvals and condition below approvals true or false `, Select the **Submit** button .
+2. In the center of the Home page within Power Automate enter the following prompt: ` Create approval when a dataverse record is created with a single condition below the approvals true and false `, Select the **Submit** button .
 
    ![screenshot of the prompt ](../Media/02/01.png)
 
@@ -35,14 +35,16 @@
 
 11. For the Assigned To parameter, enter the **email address** **<inject key="AzureAdUserEmail"></inject>** that you're using for this lab. This email address is the one that receives the approval request.
 
-12. For the Details parameter, enter the following text:`A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
+12. For the Details parameter, enter the following text: 
+
+    A new request for a real estate showing has been created. Please review the details below and approve or reject the request:
     - Property:
     - Client:
     - Client Email:
     - Date:
-    - Time:`
+    - Time:
 
-      ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
+    ![screenshot of the prompt ](../Media/02/power-automate-copilot-details-parameter.png)
 
 13. Place your curser next to Property: in the Details parameter and then select the lightning icon to open the Dynamic content pane.
 
